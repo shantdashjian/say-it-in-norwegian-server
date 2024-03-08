@@ -1,5 +1,5 @@
 # Say It in Norwegian!
-This is the backend of the translation app that takes in English text and translates it to Norwegian, generates a GIF based on the text, with the option of reading the Norwegian translation out loud. It is built with Imba, Node.js, Express, and Firebase Database, and powered by OpenAI, ResponsiveVoice TTS API, and giphy.com API. 
+This is the backend of the translation app that takes in English text and translates it to Norwegian, generates a GIF based on the text, with the option of reading the Norwegian translation out loud. It is built with Imba, Node.js, and Express, and powered by OpenAI, ResponsiveVoice TTS API, and giphy.com API. 
 
 ![Translate and Clear](screenshots/translate-speak-gif-and-clear.gif)
 
@@ -47,8 +47,7 @@ This is a [Progressive Web App](https://developer.mozilla.org/en-US/docs/Web/Pro
 ## Technologies Used on the Backend
 1. [Imba](https://imba.io/) for full stack development.
 2. [Node.js](https://nodejs.org/en) and [Express](https://expressjs.com/) for the backend.
-3. [Firebase Database](https://firebase.google.com/docs/database) for persisting the history of translations.
-4. [OpenAI API](https://platform.openai.com/docs/introduction/overview) for generating the translation.
+3. [OpenAI API](https://platform.openai.com/docs/introduction/overview) for generating the translation.
 
 ## Future Features
 1. The traveller can speak English into the app and the app would capture it in writing and do the translation to Norwegian automatically. 
